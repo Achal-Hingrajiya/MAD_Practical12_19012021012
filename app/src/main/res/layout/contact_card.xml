@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+        <TextView
+            android:id="@+id/lbl_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginRight="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Acahl Hingrajiya"
+            android:layout_alignBaseline="@+id/lbl_name"
+            android:layout_toRightOf="@+id/lbl_name"
+            android:layout_toEndOf="@+id/lbl_name"
+           />
+
+        <TextView
+            android:id="@+id/lbl_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_below="@id/lbl_name"
+            android:layout_alignLeft="@id/lbl_name"
+            android:layout_alignStart="@id/lbl_name"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+91 6355689874"
+            android:layout_alignLeft="@id/tv_name"
+            android:layout_below="@id/tv_name"
+            android:layout_alignBaseline="@+id/lbl_phone"
+            android:layout_alignStart="@id/tv_name" />
+
+        <TextView
+            android:id="@+id/lbl_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_below="@id/lbl_phone"
+            android:layout_alignLeft="@id/lbl_phone"
+            android:layout_alignStart="@id/lbl_phone" />
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rajkot, Guajrat, India"
+            android:layout_below="@id/tv_phone"
+            android:layout_toRightOf="@+id/lbl_address"
+            android:layout_toEndOf="@+id/lbl_address"
+            android:layout_alignBaseline="@+id/lbl_address"
+            android:layout_alignLeft="@+id/tv_phone"
+            android:layout_alignStart="@+id/tv_phone" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
