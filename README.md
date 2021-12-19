@@ -3,7 +3,6 @@
 
 ## AIM: 
 ### Create an application to create JSON URL for Contact which have field(id, Name(First Name, Last Name), Phone No, Address) and should be minimum five contact details & display received contact data in listview. 
-#### [Click to download report](https://github.com/Achal-Hingrajiya/MAD_Practical12_19012021012/files/7738992/19012021012_Hingrajiya.Achal.Arvindbhai_Practical-12_MAD.pdf)
 
 ![MobileApplicationDevelopment_AchalHingrajiyaPractical12_WorkingWithJsonAPIs_Contacts](https://user-images.githubusercontent.com/67894945/146633595-ab5dd2cc-c2ff-42ad-b647-65c78bbd1bda.png)
 ![MobileApplicationDevelopment_AchalHingrajiyaPractical12_WorkingWithJsonAPIs_ListOfContacts_FetchedFromUrl](https://user-images.githubusercontent.com/67894945/146633629-5d9701f0-9151-4492-a7fd-2a7638ea8188.png)
